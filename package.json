@@ -1,0 +1,16 @@
+{
+  "name": "nodejs_proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:IlyaRucavitcyn/nodejs_proxy.git",
+  "author": "ilya.rucavitcyn <ilya.rucavitcyn@cortlex.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm i && node index.js",
+    "test": "echo Test"
+  },
+  "dependencies": {
+    "http-proxy": "^1.17.0",
+    "morgan": "^1.9.1"
+  }
+}
