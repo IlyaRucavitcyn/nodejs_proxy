@@ -1,13 +1,15 @@
 module.exports = {
-    apps : [{
-      name        : "nodejs_proxy",
-      script      : "npm start",
-      watch       : true,
+  apps: [
+    {
+      name: "proxy",
+      script: "npm start",
+      watch: ["index.js", "package.json", "ecosystem.config.json"],
       env: {
-        "NODE_ENV": "development",
+        NODE_ENV: "development"
       },
-      env_production : {
-         "NODE_ENV": "production"
+      env_production: {
+        NODE_ENV: "production"
       }
-    }]
-  }
+    }
+  ]
+};
