@@ -1,7 +1,7 @@
 const http = require('http');
 const httpProxy = require('http-proxy');
 
-const port = process.env.PORT || 3002;
+const port = process.env.PORT || 3000;
 const appPort = process.env.APP_PORT || 5000;
 
 const proxy = httpProxy.createServer();
